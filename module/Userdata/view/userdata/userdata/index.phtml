@@ -1,0 +1,30 @@
+<?php
+$title = 'Benutzerinformationen';
+$this->headTitle($title);
+?>
+
+<!--
+escapeHTML gegen
+-->
+<h1><?= $this->escapeHtml($title) ?></h1>
+<table class="table">
+    <tr>
+        <th>Nachname</th>
+        <th>Vorname</th>
+        <th>Addresse</th>
+        <th>Land</th>
+    </tr>
+    <?php foreach ($this->users as $user) : ?>
+        <tr>
+            <td><?= $this->escapeHtml($user->lastname) ?></td>
+            <td><?= $this->escapeHtml($user->firstname) ?></td>
+            <td><?= $this->escapeHtml($user->address) ?></td>
+            <td><?= $this->escapeHtml($user->country) ?></td>
+            <td>
+                <a href="<?= $this->url('userdata', ['action' => 'download', 'id' => $user->id]) ?>">Download (PDF)</a>
+            </td>
+        </tr>
+    <?php endforeach; ?>
+</table>
+
+<input type="text" id="name" name="name" minlength="4" maxlength="8" size="10" placeholder="Nachname"> <a href="<?= $this->url('userdata', ['action' => 'fetchUserdataAction']) ?>"> Suche</a>

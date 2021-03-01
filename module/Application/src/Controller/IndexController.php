@@ -13,9 +13,12 @@ namespace Application\Controller;
 use Laminas\Mvc\Controller\AbstractActionController;
 use Laminas\View\Model\ViewModel;
 
+// Controller in Zend bzw. Lamina starten mit Großbuchstaben(capital letter).
 class IndexController extends AbstractActionController
 {
-    public function indexAction()
+
+    // Actions wiederum starten mit Kleinbuchstaben (lower case letter)
+    public function indexAction(): ViewModel
     {
         return new ViewModel();
     }
