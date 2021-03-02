@@ -19,10 +19,11 @@ Einfach eine kleine Demo um zu zeigen wie ich bisher ungefähr gearbeitet habe u
 Dafür habe ich ein Userdata Modul angelegt in dem man eine Tabelle angezeigt bekommt die die Daten der User in der Datenbank enthält. 
 <br>
 
-Zusätzlich habe ich 3 Tabellen mit User, Role und Permissions angelegt in den folgende Beziehungen herrschen:
-User N-1 Role
-Role 1-N Permissions
+Zusätzlich habe ich 3 Tabellen mit User, Role und Permissions angelegt in den folgende Beziehungen herrschen: <br>
+User N-1 Role <br>
+Role 1-N Permissions <br>
 <br>
+
 Weitere Ideen wo mir jetzt einfach die Zeit für die Umsetzung gefehlt hatt wären jetzt noch: <br>
 Such und FilterFunktionen um sich bestimmte User anzeigen zu lassen. <br>
 Die angezeigeten User anhand der Rolle und der dazugehörigen Permissions auch zu filtern. <br> 
