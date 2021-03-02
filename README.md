@@ -16,16 +16,17 @@ Da das Hosten online etwas komplexer ist und wir ja auch keinen Umfang besproche
 
 ## Beschreibung Idee Projekt
 Einfach eine kleine Demo um zu zeigen wie ich bisher ungefähr gearbeitet habe und wie ich auch im Betrieb beispielsweiße Modulle aufgebaut habe, die natürlich am Ende deutlich komplexer wurden wie das kleine Beispiel jetzt. 
-Dafür habe ich ein Modul angelegt in der man eine Tabelle angezeigt bekommt die die Daten der User in der Datenbank enthält.
+Dafür habe ich ein Userdata Modul angelegt in dem man eine Tabelle angezeigt bekommt die die Daten der User in der Datenbank enthält. 
+<br>
 
 Zusätzlich habe ich 3 Tabellen mit User, Role und Permissions angelegt in den folgende Beziehungen herrschen:
 User N-1 Role
 Role 1-N Permissions
-
-Weitere Ideen wo mir jetzt einfach die Zeit für die Umsetzung gefehlt hatt wären jetzt noch:
-Such und FilterFunktionen um sich bestimmte User anzeigen zu lassen.
-Die angezeigeten User anhand der Rolle und der dazugehörigen Permissions auch zu filtern.
-Userdaten als PDF runterzuladen, dies soll aber auch nur mit entsprechender Berichtigung möglich sein. 
+<br>
+Weitere Ideen wo mir jetzt einfach die Zeit für die Umsetzung gefehlt hatt wären jetzt noch: <br>
+Such und FilterFunktionen um sich bestimmte User anzeigen zu lassen. <br>
+Die angezeigeten User anhand der Rolle und der dazugehörigen Permissions auch zu filtern. <br> 
+Userdaten als PDF runterzuladen, dies soll aber auch nur mit entsprechender Berichtigung möglich sein. <br>
 
 ## Homescreen der Anwendung 
 Standardmäßig im Application Modul von wo aus man auf andere Module weiterverlinken kann.
