@@ -40,4 +40,4 @@ Weiterhin könnte man auch Wizards zum editieren oder für sonstige Aktionen per
 
 ![ScreenUserInfo](https://user-images.githubusercontent.com/49024358/109636305-b2f38700-7b4b-11eb-9069-936b975ee214.PNG)
 
-So am Rande: Sie hatten mich ja gefragt wie es bezüglich Berechtigungen in PHP so aussieht und da hab ich nochmal mich informiert, PHP selbst scheint dementsprechend noch nicht die entsprechenden Features mitzubringen aber es gibt dafür entsprechende Librariers(z.B.: http://phprbac.net/) wie für alles in PHP die sich ja einfach dem Projekt durch den Composer hinzufügen lassen.
+Zuzüglich gibt es was eventuell benötigte Berichtigungen anggeht in PHP libraries (wie z.B.:http://phprbac.net/)  um dies zu ermöglchen sodass beispielsweiße User auf bestimmte Actions keinen Zugriff haben. In anderen Programmiersprachen ist dies oft schon mit integriert. 
