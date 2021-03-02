@@ -25,9 +25,9 @@ Role 1-N Permissions <br>
 <br>
 
 Weitere Ideen wo mir jetzt einfach die Zeit für die Umsetzung gefehlt hatt wären jetzt noch: <br>
-Such und FilterFunktionen um sich bestimmte User anzeigen zu lassen. <br>
-Die angezeigeten User anhand der Rolle und der dazugehörigen Permissions auch zu filtern. <br> 
-Userdaten als PDF runterzuladen, dies soll aber auch nur mit entsprechender Berichtigung möglich sein. <br>
+- Such und FilterFunktionen um sich bestimmte User anzeigen zu lassen. <br>
+- Die angezeigeten User anhand der Rolle und der dazugehörigen Permissions auch zu filtern. <br> 
+- Userdaten als PDF runterzuladen, dies soll aber auch nur mit entsprechender Berichtigung möglich sein. <br>
 
 ## Homescreen der Anwendung 
 Standardmäßig im Application Modul von wo aus man auf andere Module weiterverlinken kann.
