@@ -12,8 +12,6 @@ Benötigt wird auf jeden Fall ein Http-Server mit dem SSH möglich ist um auf de
 
 Eine kleine Anleitung um das Projekt bei sich lokal zu testen kann ich mir noch überlegen oder auch einer Vagrant wäre möglich wobei ich da dementsprechend das Vagrantfile anpassen muss gerade wegen des Composers und der Datenbank sodass nach einem Vagrant up nichts mehr gemacht werden muss. 
 
-Da das Hosten online etwas komplexer ist und wir ja auch keinen Umfang besprochen haben, habe ich jetzt einfach entsprechend Screenshots der Anwendung mit hochgeladen und den Code dementsprechend kommentiert. 
-
 ## Beschreibung Idee Projekt
 Einfach eine kleine Demo um zu zeigen wie ich bisher ungefähr gearbeitet habe und wie ich auch im Betrieb beispielsweiße Modulle aufgebaut habe, die natürlich am Ende deutlich komplexer wurden wie das kleine Beispiel jetzt. 
 Dafür habe ich ein Userdata Modul angelegt in dem man eine Tabelle angezeigt bekommt die die Daten der User in der Datenbank enthält. 
